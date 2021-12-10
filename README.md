@@ -54,3 +54,21 @@ npm install primeicons --save
 ```sh
 ng g m primeNg
 ```
+
+## Shared Module
+
+```sh
+ng g m shared
+```
+
+## Ventas Module
+
+```sh
+ng g m ventas
+```
+
+## AppMenu Component
+
+```sh
+ng g c shared/menu --skip-tests -is
+```
