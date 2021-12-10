@@ -48,3 +48,9 @@ npm install primeicons --save
   ],
 }
 ```
+
+## Create PrimeNGModule
+
+```sh
+ng g m primeNg
+```
