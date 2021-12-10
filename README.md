@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Intall PrimeNG
+
+https://primefaces.org/primeng/showcase/#/setup
+
+```sh
+npm install primeng --save
+npm install primeicons --save
+```
+
+- Add to angular.json
+
+```json
+ "options": {
+   ...
+  "styles": [
+    "src/styles.css",
+    "node_modules/primeicons/primeicons.css",
+    "node_modules/primeng/resources/themes/lara-light-indigo/theme.css",
+    "node_modules/primeng/resources/primeng.min.css"
+  ],
+}
+```
