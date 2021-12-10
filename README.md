@@ -72,3 +72,20 @@ ng g m ventas
 ```sh
 ng g c shared/menu --skip-tests -is
 ```
+
+## Rutas
+
+- flat: no creara carpetas
+
+```sh
+ng g m appRouter --flat
+```
+
+## Componentes para las paginas
+
+```sh
+ng g c ventas/pages/numeros --skip-tests -is
+ng g c ventas/pages/noComunes --skip-tests -is
+ng g c ventas/pages/basicos --skip-tests -is
+ng g c ventas/pages/ordenar --skip-tests -is
+```
