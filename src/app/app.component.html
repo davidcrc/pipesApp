@@ -1,6 +1,26 @@
 <div class="text-layout">
-  <h1>{{"Hola mundo" }}</h1>
+  <h1>{{ "Hola mundo" }}</h1>
 </div>
 
-<button pButton type="button" label="Click" ></button>
-<p-button label="Click" ></p-button>
+<button
+  pButton
+  label="Click"
+  icon="pi pi-bell"
+  iconPos="right"
+  class="p-button-help"
+></button>
+<p-button label="Click" class="button-danger"></p-button>
+
+<p-card
+  header="Simple Card"
+  [subheader]="title | titlecase"
+  [style]="{ width: '25rem', 'margin-bottom': '2em' }"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed
+    consequuntur error repudiandae numquam deserunt quisquam repellat libero
+    asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
+    neque quas!
+  </p>
+
+</p-card>
