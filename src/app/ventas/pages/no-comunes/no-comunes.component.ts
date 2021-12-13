@@ -41,4 +41,16 @@ export class NoComunesComponent {
     edad: 30,
     direccion: 'Aqp, Peru',
   };
+
+  // JsonPipe
+  heroes = [
+    {
+      nombre: 'superman',
+      vuela: true,
+    },
+    {
+      nombre: 'robin',
+      vuela: false,
+    },
+  ];
 }
