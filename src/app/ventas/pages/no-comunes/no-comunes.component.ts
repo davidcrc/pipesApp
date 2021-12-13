@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NoComunesComponent {
   // i18nSelect
-  nombre: string = 'Pedro';
+  nombre: string = 'Susana';
   genero: string = 'femenino';
 
   invitacionMap = {
@@ -24,4 +24,14 @@ export class NoComunesComponent {
   };
 
   constructor() {}
+
+  cambiarPersona() {
+    this.nombre = 'macho';
+    this.genero = 'masculino';
+  }
+
+  borrarCliente() {
+    // this.clientes && this.clientes.shift();
+    this.clientes && this.clientes.pop();
+  }
 }
