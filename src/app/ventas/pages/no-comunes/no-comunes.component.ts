@@ -34,4 +34,11 @@ export class NoComunesComponent {
     // this.clientes && this.clientes.shift();
     this.clientes && this.clientes.pop();
   }
+
+  // KeyVale Pipe
+  persona = {
+    nombre: 'david',
+    edad: 30,
+    direccion: 'Aqp, Peru',
+  };
 }
