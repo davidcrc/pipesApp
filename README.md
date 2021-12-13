@@ -89,3 +89,19 @@ ng g c ventas/pages/noComunes --skip-tests -is
 ng g c ventas/pages/basicos --skip-tests -is
 ng g c ventas/pages/ordenar --skip-tests -is
 ```
+
+## PrimeFlex - uso de flexbox
+
+- In primeflex version greater than 3.0.0, the tag "p-" was removed, for example: class="p-grid" became class="grid".
+
+```sh
+npm install primeflex --save
+
+```
+
+```json
+"styles": [
+  ...
+  "node_modules/primeflex/primeflex.css"
+],
+```
